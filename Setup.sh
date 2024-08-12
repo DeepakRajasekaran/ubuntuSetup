@@ -24,6 +24,8 @@ sudo apt install terminator -y
 
 # ZSH Setup
 
+clear
+
 echo "Setting up zsh..."
 
 command -v zsh | sudo tee -a /etc/shells
@@ -33,6 +35,8 @@ sudo chsh -s $(which zsh) $USER
 sudo apt update -y
 
 echo "Setting Up ohmyszh..."
+
+clear
 
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
@@ -46,6 +50,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 python3 zshrc_edit.py
 
 source ~/.zshrc
+
+clear
 
 #VSCodium Install
 
