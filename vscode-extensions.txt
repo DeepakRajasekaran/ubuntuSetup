@@ -1,0 +1,13 @@
+alexowl.transparent-color-theme
+austin.code-gnu-global
+esbenp.prettier-vscode
+formulahendry.code-runner
+github.github-vscode-theme
+ms-python.debugpy
+ms-python.python
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+tabnine.tabnine-vscode
+twxs.cmake

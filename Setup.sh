@@ -66,6 +66,8 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
     
 sudo apt update && sudo apt install codium
 
+xargs -n1 codium --install-extension < ~/vscode-extensions.txt
+
 sudo apt autoremove -y
 
 echo "Setup Completed"
