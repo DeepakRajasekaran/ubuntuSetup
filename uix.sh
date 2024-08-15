@@ -12,6 +12,7 @@ sudo add-apt-repository ppa:trebelnik-stefina/grub-customizer
 
 
 sudo apt -f install
+sudo apt install htop
 sudo apt install grub-customizer
 sudo apt install google-chrome-stable
 sudo snap remove firefox
