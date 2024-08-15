@@ -13,14 +13,15 @@ sudo add-apt-repository ppa:trebelnik-stefina/grub-customizer
 
 sudo apt -f install
 sudo apt install htop
-sudo apt install grub-customizer
-sudo apt install google-chrome-stable
+sudo apt install grub-customizer -y
+sudo apt install google-chrome-stable -y
 sudo snap remove firefox
-sudo apt install firefox-stable
-sudo apt update
-sudo apt install gnome-tweaks
-sudo apt install qbittorrent
-sudo apt install gnome-shell-extension-manager
+sudo apt install firefox-stable -y
+sudo apt update -y
+sudo apt install gnome-tweaks -y
+sudo apt install qbittorrent -y
+sudo apt install gnome-shell-extension-manager -y
 sudo apt install remmina remmina-plugin-rdp remmina-plugin-secret
-sudo apt install chrome-gnome-shell
+sudo apt install chrome-gnome-shell -y
 sudo snap install localsend
+sudo apt install vlc -y
