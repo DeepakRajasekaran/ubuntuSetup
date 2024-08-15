@@ -20,7 +20,7 @@ sudo apt install htop
 sudo apt install grub-customizer -y
 sudo apt install google-chrome-stable -y
 sudo snap remove firefox
-sudo apt install firefox-stable -y
+sudo apt install firefox -y
 sudo apt update -y
 sudo apt install gnome-tweaks -y
 sudo apt install qbittorrent -y
