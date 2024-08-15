@@ -1,0 +1,179 @@
+[/]
+create-initial-widget=false
+widgets=[{'fd0f28b1-f74e-4957-80e2-ddce0c537744': <{'enabled': <true>}>}, {'2d6bcd63-b315-4caa-a93b-65f99540e43c': <{'enabled': <true>}>}, {'de933317-4476-43e9-8b3a-4e306f90d8c7': <{'enabled': <true>}>}, {'257b214e-085d-4e7f-910d-9a39d743f928': <{'enabled': <true>}>}]
+
+[widget-data/0d9b077a-921d-4e89-b74b-ddab2d151f85]
+elements=[@a{sv} {}, {'22a65f8d-cf13-4594-8629-20e8d4ef20df': <{'enabled': <true>}>}, {'d113f985-d0a5-4fc4-8133-52ff8d03635a': <{'enabled': <true>}>}]
+location=(50, 750)
+name='ClockWidget'
+spacing=0
+
+[widget-data/0d9b077a-921d-4e89-b74b-ddab2d151f85/element-data/22a65f8d-cf13-4594-8629-20e8d4ef20df]
+date-format='%I∶%M'
+font-family-override=(true, 'System-ui')
+font-size=60
+font-weight=600
+name='Time Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+
+[widget-data/0d9b077a-921d-4e89-b74b-ddab2d151f85/element-data/d113f985-d0a5-4fc4-8133-52ff8d03635a]
+background-color='rgb(206,255,5)'
+border-color='rgb(206,255,5)'
+border-width=15
+date-format='%b %d %Y'
+font-family-override=(true, 'System-ui')
+font-size=25
+font-style='Oblique'
+font-weight=600
+foreground-color='rgb(0,0,0)'
+name='Date Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+show-background=true
+show-border=true
+
+[widget-data/115883e1-f78f-4f37-8045-2e101bb35924]
+elements=[@a{sv} {}, {'22a65f8d-cf13-4594-8629-20e8d4ef20df': <{'enabled': <true>}>}]
+location=(1550, 750)
+name='ClockWidget'
+spacing=0
+
+[widget-data/115883e1-f78f-4f37-8045-2e101bb35924/element-data/22a65f8d-cf13-4594-8629-20e8d4ef20df]
+date-format='%I'
+font-family-override=(true, 'System-ui')
+font-size=60
+font-weight=600
+name='Time Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+
+[widget-data/2354bb65-9de6-4922-9dc5-05c2aa77515e]
+elements=[@a{sv} {}, {'b0037aa1-e7dd-45e2-abe6-ac7c98f1ee0e': <{'enabled': <true>}>}, {'afd5104d-800e-4e4e-9b8c-e5165a088dcf': <{'enabled': <true>}>}]
+name='Digital Clock Widget'
+
+[widget-data/2354bb65-9de6-4922-9dc5-05c2aa77515e/element-data/afd5104d-800e-4e4e-9b8c-e5165a088dcf]
+date-format='%A %b %d'
+font-size=32
+name='Date Label'
+
+[widget-data/2354bb65-9de6-4922-9dc5-05c2aa77515e/element-data/b0037aa1-e7dd-45e2-abe6-ac7c98f1ee0e]
+name='Time Label'
+
+[widget-data/257b214e-085d-4e7f-910d-9a39d743f928]
+background-color='rgb(255,255,0)'
+border-radius=10
+border-width=0
+elements=[@a{sv} {}, {'7d1491cb-a5da-463a-8606-7b815cc39c8d': <{'enabled': <true>}>}, {'9826ffa8-cfc9-4313-a864-c35b4e6f20a4': <{'enabled': <true>}>}]
+location=(38, 910)
+name='DATE'
+show-background=false
+show-border=true
+spacing=8
+
+[widget-data/257b214e-085d-4e7f-910d-9a39d743f928/element-data/7d1491cb-a5da-463a-8606-7b815cc39c8d]
+date-format='%A'
+font-family-override=(true, 'Nimbus Sans Narrow')
+font-size=25
+font-style='Normal'
+font-weight=700
+line-alignment='Center'
+name='Date Label'
+text-align-x='Center'
+text-align-y='Center'
+
+[widget-data/257b214e-085d-4e7f-910d-9a39d743f928/element-data/9826ffa8-cfc9-4313-a864-c35b4e6f20a4]
+background-color='rgb(255,255,0)'
+border-color='rgb(255,255,0)'
+border-radius=11
+border-width=8
+date-format='%d · %b · %Y'
+font-family-override=(true, 'Nimbus Sans Narrow')
+font-size=20
+font-style='Normal'
+font-weight=1000
+foreground-color='rgb(255,255,0)'
+line-alignment='Center'
+name='Date Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+show-background=false
+show-border=false
+text-align-x='Center'
+text-align-y='Center'
+
+[widget-data/2d6bcd63-b315-4caa-a93b-65f99540e43c]
+elements=[@a{sv} {}, {'66cba63a-d0cc-49f9-8d25-59886b618d99': <{'enabled': <true>}>}]
+location=(50, 670)
+name='Digital Clock Widget'
+spacing=0
+
+[widget-data/2d6bcd63-b315-4caa-a93b-65f99540e43c/element-data/66cba63a-d0cc-49f9-8d25-59886b618d99]
+date-format='%I'
+font-family-override=(true, 'Nimbus Sans Narrow')
+font-size=100
+font-weight=600
+name='Time Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+
+[widget-data/71314c42-6c81-45a8-824a-73431437a4c5]
+elements=[@a{sv} {}, {'78ea44b3-3776-4df8-a082-91264b20981c': <{'enabled': <true>}>}, {'a78f6223-3a7b-43dc-87ac-368dbe2dea4e': <{'enabled': <true>}>}]
+name='Digital Clock Widget'
+
+[widget-data/71314c42-6c81-45a8-824a-73431437a4c5/element-data/78ea44b3-3776-4df8-a082-91264b20981c]
+name='Time Label'
+
+[widget-data/71314c42-6c81-45a8-824a-73431437a4c5/element-data/a78f6223-3a7b-43dc-87ac-368dbe2dea4e]
+date-format='%A %b %d'
+font-size=32
+name='Date Label'
+
+[widget-data/cf082088-c1ce-489e-8c0e-a08cca2ec53d]
+elements=[@a{sv} {}, {'8d483b89-6ffe-4415-8445-0eb2e5b42948': <{'enabled': <false>}>}, {'cdcb8205-5d30-417a-85a9-bc35da8a9236': <{'enabled': <true>}>}, {'7576e831-0124-4a88-8557-95af5514db08': <{'enabled': <true>}>}]
+location=(50, 750)
+name='Widget_Template1'
+padding=(25, 25, 0, 25)
+spacing=0
+
+[widget-data/cf082088-c1ce-489e-8c0e-a08cca2ec53d/element-data/7576e831-0124-4a88-8557-95af5514db08]
+background-color='rgb(206,255,5)'
+border-color='rgb(206,255,5)'
+border-radius=9
+border-width=7
+date-format='%b %d %Y'
+font-family-override=(true, 'System-ui')
+font-size=24
+font-weight=600
+foreground-color='rgb(0,0,0)'
+name='Date Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+show-background=true
+show-border=true
+
+[widget-data/cf082088-c1ce-489e-8c0e-a08cca2ec53d/element-data/8d483b89-6ffe-4415-8445-0eb2e5b42948]
+date-format='%A'
+font-family-override=(true, 'System-ui')
+font-size=40
+font-weight=600
+foreground-color='rgb(255,255,255)'
+name='Day Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+
+[widget-data/cf082088-c1ce-489e-8c0e-a08cca2ec53d/element-data/cdcb8205-5d30-417a-85a9-bc35da8a9236]
+date-format='%I∶%M'
+font-family-override=(true, 'System-ui')
+font-size=60
+font-weight=600
+foreground-color='rgb(255,255,255)'
+name='Time Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+
+[widget-data/de933317-4476-43e9-8b3a-4e306f90d8c7]
+elements=[@a{sv} {}, {'66cba63a-d0cc-49f9-8d25-59886b618d99': <{'enabled': <true>}>}]
+location=(50, 785)
+name='Digital Clock Widget'
+spacing=0
+
+[widget-data/de933317-4476-43e9-8b3a-4e306f90d8c7/element-data/66cba63a-d0cc-49f9-8d25-59886b618d99]
+date-format='%M'
+font-family-override=(true, 'Nimbus Sans Narrow')
+font-size=100
+font-weight=600
+name='Time Label'
+shadow=(false, 'black', 2, 2, 0, 4)

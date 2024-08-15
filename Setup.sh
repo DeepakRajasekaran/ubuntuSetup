@@ -9,17 +9,11 @@ alias sudo='sudo '
 # Single Command Installations
 
 sudo apt update -y
-
 sudo apt upgrade -y
-
 sudo apt fetch
-
 sudo apt install zsh -y
-
 sudo apt install wget -y
-
 sudo apt install git -y
-
 sudo apt install terminator -y
 
 # ZSH Setup
