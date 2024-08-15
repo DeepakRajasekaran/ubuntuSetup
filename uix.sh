@@ -22,3 +22,4 @@ sudo apt install qbittorrent
 sudo apt install gnome-shell-extension-manager
 sudo apt install remmina remmina-plugin-rdp remmina-plugin-secret
 sudo apt install chrome-gnome-shell
+sudo snap install localsend
