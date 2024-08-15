@@ -1,5 +1,9 @@
 #!/bin/bash
 
+alias dapt='apt'
+alias apt='nala'
+alias sudo='sudo '
+
 # Essentials
 sudo apt install dirmngr ca-certificates software-properties-common apt-transport-https
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
