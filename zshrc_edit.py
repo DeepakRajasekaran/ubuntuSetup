@@ -27,6 +27,9 @@ alias sudo="sudo "
 
 # alias nano zshrc
 alias nzsh="nano ~/.zshrc"
+
+#alias for codium
+alias code="codium"
 """
 
 # Find the line to insert aliases after

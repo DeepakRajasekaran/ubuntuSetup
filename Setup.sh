@@ -60,7 +60,19 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
     
 sudo apt update && sudo apt install codium
 
-xargs -n1 codium --install-extension < vscode-extensions.txt
+xargs -n1 codium --install-extension < extensions.txt
+
+for file in *.vsix; do codium --install-extension "$file"; done
+
+# Terminator Setup
+
+# Copy the config file from the current directory
+cp config ~/.config/terminator/
+
+# Create the directory if it doesn't exist and move the file
+mkdir -p ~/.config/terminator
+cp config ~/.config/terminator/
+
 
 sudo apt autoremove -y
 
